@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FBE7;
+    height: 100%;
+    width: 100%;
+    color: #432000;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 250px;
+    margin: 0 auto;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 600,
+    'GRAD' 1,
+    'opsz' 48,
+  }
+input {
+    color: #5c3d2e;
+    background-color: #ffffff;
+    border: 0px solid ;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #F9F5E7;
+    background-color: #5c3d2e;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #FFFDFF;
+    font-family: 'Poppins', sans-serif;
+    color: #5c3d2e;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+
+#discard-list li{
+    text-decoration: line-through;
+    background-color: #e0c097;
+}
+
+.darkMode{
+    display: flex;
+    
+    padding: 5px;
+    justify-content: right;
+    align-items: right;
+    flex-direction: row;
+}
+#dark{
+    align-items: baseline;
+    cursor: pointer;
+    padding: auto;
+    /* width: 40px; */
+    background-color: #FFECC7;
+    height: 55px;
+    color: #5c3d2e; 
+    border-radius: 100%;
+}
+
+#dlmode{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+  
+  
