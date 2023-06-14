@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
-    databaseURL: "add your firebase database link"
+    databaseURL: "https://playground-f422a-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
 
 // Defining variables
@@ -35,6 +35,7 @@ delButtonEl.addEventListener("click", function() {
 })
 
 // Functions to update Lists
+// onValue() is called every time data is changed at the specified database reference, including changes to children.
 onValue(shoppingListInDB, function(snapshot) {
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())

@@ -2,6 +2,8 @@
 
 ShoppingList is a web application that allows users to create and manage their shopping lists. It is built using HTML, CSS, and JavaScript.
 
+<img src="icon_wb.png" alt="Logo" width="300"/>
+
 ## Features
 
 - **Add items**: Users can easily add items to their shopping list by typing the item name and clicking the "Add" button or pressing Enter key. Double click item to move it to Discarded list.
@@ -38,3 +40,7 @@ If you want to contribute to this project and make it better, follow these steps
 ## Contact
 
 If you have any questions or suggestions, feel free to contact me at [armaanchauhan268@gmail.com](mailto:armaanchauhan268@gmail.com).
+
+## Screenshots 
+<img src="SS_m.png" alt="Logo" width="300"/>
+<img src="SS_d.png" alt="Logo" width="300"/>
